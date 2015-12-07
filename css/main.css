@@ -16,3 +16,18 @@ h1{
 	margin-left: 75px;
 	margin-right: 75px;
 }
+
+#mainContent {
+	margin-left: 75px;
+	margin-right: 75px;
+}
+
+.centreMe {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+	
+img {
+	padding-bottom: 50px;
+}
