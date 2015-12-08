@@ -1,15 +1,16 @@
 p {
-	color: red;
+	color: white;
 }
 
 body{
 	font-size: 14px;
-	color: purple;
-	background-color: #162856;
+	color: green;
+	background-color: #333676;
 }
 
 h1{
-	color: #061593;
+	color: #AD0062;
+	background-color: #FFFF3F;
 	text-align: center;
 	border-style: dashed;
 	border-width: 4px;
@@ -31,3 +32,4 @@ h1{
 img {
 	padding-bottom: 50px;
 }
+
