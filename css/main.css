@@ -19,7 +19,7 @@ h1{
 }
 
 #mainContent {
-	margin-left: 75px;
+	margin-left: 150px;
 	margin-right: 75px;
 }
 
@@ -33,3 +33,33 @@ img {
 	padding-bottom: 50px;
 }
 
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: #f1f1f1;
+	width: 130px;
+	position: fixed;
+}
+
+nav ul li a {
+	display: block;
+	text-decoration: none;
+	color: #000;
+	padding-left: 16px;
+	padding-top: 8px;
+	padding-bottom: 9px;
+	border-width: 1px;
+	border-style: solid;
+	
+}
+
+nav ul li a:hover {
+	background-color: #555;
+	color: #fff;
+}
+
+.active {
+	background-color: #4CAF50;
+	color: #fff;
+}
