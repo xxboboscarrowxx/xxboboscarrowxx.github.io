@@ -9,13 +9,17 @@ body{
 }
 
 h1{
+	font-family: 'Amatic SC', cursive;
 	color: #AD0062;
 	background-color: #FFFF3F;
 	text-align: center;
 	border-style: dashed;
 	border-width: 4px;
-	margin-left: 75px;
-	margin-right: 75px;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	
 }
 
 #mainContent {
@@ -62,4 +66,16 @@ nav ul li a:hover {
 .active {
 	background-color: #4CAF50;
 	color: #fff;
+}
+
+@media screen and (max-width: 600px) {
+	nav {
+		display: none;
+	}
+	
+	#mainContent {
+		margin-left: 2%;
+		margin-right: 75px;
+		padding-left: 2%;
+	}
 }
